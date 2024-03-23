@@ -1,0 +1,1222 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+img{
+    max-width: 100%;
+}
+a{
+    text-decoration: none;
+}
+/* first-section start */
+header {
+	background-image: url('../image/background.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-blend-mode: multiply;
+    background-color: #000000b5;
+    padding-top: 90px;
+}
+.main-box {
+	display: flex;
+	width: 1140px;
+	margin: 0 auto;
+}
+.content {
+	align-self: center;
+	margin-right: 200px;
+    font-family: open sans;
+}
+.title {
+	color: RGB(244, 203, 8);
+   
+}
+.sub-title {
+	padding: 20px 0 10px;
+    color: RGB(255, 255, 255);
+   
+
+}
+.sub-title::after{
+    content: "";
+    display: block;
+    height: 2.7px;
+    width: 100px;
+    background-color: rgb(244, 203, 8);
+    margin: 20px 0 30px 0;
+    border-radius: 2px;
+
+}
+.details {
+	line-height: 20px;
+	margin-bottom: 60px;
+    color: white;
+}
+.btn-one{
+	color: white;
+	background-color: RGB(220, 183, 7);
+	padding: 12px 40px;
+	border-radius: 10px;
+    margin-top: -10px;
+    float: left;
+}
+.profile {
+	width: 340px;
+}
+
+.btn-two{
+    margin-left: 40px;
+    bottom: 20px;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 12px ;
+    margin-top: 5rem;
+    
+}
+.btn-two{
+    
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+.btn-two:hover {
+    
+    background-color: rgb(244, 248, 252);
+    color: black;
+    
+}
+
+/* first-section end */
+
+/* second-section start */
+
+.second-section{
+  height: 33rem;
+  width: 1000px;
+}
+
+.welcome{
+    margin-top: 4rem;
+    margin-left: 17rem;
+    font-family: open sans;
+}
+.welcome h3{
+    color: rgb(244,203,8);
+}
+.elvo{
+    font-family: open sans;
+    margin-top: 2rem;
+    margin-left: 16.9rem; 
+    font-size: 20px;
+    color: rgb(17,17,17); 
+}
+.elvo::after{
+    content: "";
+    display: block;
+    height: 2.7px;
+    width: 100px;
+    background-color: rgb(244, 203, 8);
+    margin: 20px 0 30px 0;
+    border-radius: 2px;
+}
+.we{
+    margin-top: 2rem;
+    margin-left: 16.9rem; 
+    color: rgb(179,179,179);
+
+}
+
+.right{
+    background-color: rgb(255,255,255);
+    width: 500px;
+    height: 480px;
+    position: relative;
+    top: 2rem;
+    right: -50rem;
+    margin-top: -22rem;
+    font-size: 17px;
+    color: rgb(17,17,63);
+    font-family: open sans;
+
+}
+.left{
+    height: 480px;
+    width: 530px;
+    background-color: rgb(255,255,255);
+    position: relative;
+    top: 3rem;
+}
+
+.button-three a{
+  background-color: rgb(244,203,8);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: open sans;
+  border-radius: 5px;
+}
+/* second-section end */
+
+/* third-section start */
+.first-image{
+    height: 20rem;
+    width: 34.7rem;
+    float: left;
+   
+}
+.first-image h2{
+    position: relative;
+    margin-top: -10rem;
+    margin-left: 3rem;
+    color: rgb(255,255,255);
+    font-family: open sans;
+    z-index: 1;
+}
+.first-image p{
+    position: relative;
+    color: rgb(234,255,255);
+    font-size: 18px;
+    font-family: open sans;
+    margin-left: 3rem;
+    z-index: 1;
+}
+.first-image h2::after{
+    position: relative;
+    content: '';
+    display: block;
+    height: 2.5px;
+    width: 80px;
+    background-color: rgb(244, 203, 8);
+    position: relative;
+    margin: 30px 0;
+    z-index: 1;
+}
+
+.second-image{
+    height: 20rem;
+    width: 34.7rem;
+    float: left;
+}
+.second-image h2{
+    position: relative;
+    margin-top: -10rem;
+    margin-left: 2.5rem;
+    color: rgb(255,255,255);
+    font-family: open sans;
+    z-index: 1;
+    
+}
+.second-image p{
+    position: relative;
+    color: rgb(234,255,255);
+    font-size: 18px;
+    font-family: open sans;
+    margin-left: 2.5rem;
+    z-index: 1;
+}
+.second-image h2::after{
+    position: relative;
+    content: '';
+    display: block;
+    height: 2.5px;
+    width: 80px;
+    background-color: rgb(244, 203, 8);
+    position: relative;
+    margin: 30px 0;
+    z-index: 1;
+}
+
+.third-image{
+    height: 20rem;
+    width: 34.7rem;
+    float: left;
+    
+}
+.third-image h2{
+    position: relative;
+    margin-top: -10rem;
+    margin-left: 2.5rem;
+    color: rgb(255,255,255);
+    font-family: open sans;
+    z-index: 1;
+}
+.third-image h2::after{
+    position: relative;
+    content: '';
+    display: block;
+    height: 2.5px;
+    width: 80px;
+    background-color: rgb(244, 203, 8);
+    position: relative;
+    margin: 30px 0;
+    z-index: 1;
+}
+.third-image p{
+    position: relative;
+    color: rgb(234,255,255);
+    font-size: 18px;
+    font-family: open sans;
+    margin-left: 2.5rem;
+    z-index: 1;
+}
+.three-section::after{
+    position: absolute;
+    content: "";
+    display: block;
+    height: 297px;
+    width: 104.1rem;
+    background-color: black;
+    opacity: 0.6;
+}
+/* third-section end */
+
+/* four-section start */
+.caption-one{
+    text-align: center;
+    color: rgb(244,203,8);
+    font-family: open sans;
+}
+.caption-one h1{
+    text-align: center;
+    color: rgb(17,17,17);
+    font-family: open sans;
+    font-size: 2.5rem;
+}
+.caption-one h1::after{
+    content: "";
+    display: block;
+    height: 2.7px;
+    width: 100px;
+    background-color: rgb(244, 203, 8);
+    margin: 20px 0 30px 0;
+    border-radius: 2px;
+    
+}
+.caption-one h1::after{
+    margin-left: 49rem;
+}
+
+.six-image{
+    padding: 10px 320px;
+}
+.first-photo{
+    display: flex;
+    
+}
+.first-photo h3{
+    font-family: open sans;
+}
+.first-photo h4{
+    font-family: open sans;
+    color: rgb(193,194,193);
+    
+}
+.second-photo{
+    display: flex;
+    
+}
+.second-photo h3{
+    font-family: open sans;
+}
+.second-photo h4{
+    font-family: open sans;
+    color: rgb(193,194,193);
+}
+.third-photo{
+    display: flex;
+    
+}
+.third-photo h3{
+    font-family: open sans;
+}
+.third-photo h4{
+    font-family: open sans;
+    color: rgb(193,194,193);
+}
+.four-photo{
+    display: flex;
+    
+}
+.four-photo h3{
+    font-family: open sans;
+}
+.four-photo h4{
+    font-family: open sans;
+    color: rgb(193,194,193);
+    
+}
+.five-photo{
+    display: flex;
+    
+}
+.five-photo h3{
+    font-family: open sans;
+}
+.five-photo h4{
+    font-family: open sans;
+    color: rgb(193,194,193);
+    
+}
+.six-photo{
+    display: flex;
+    
+}
+.six-photo h3{
+    font-family: open sans;
+}
+.six-photo h4{
+    font-family: open sans;
+    color: rgb(193,194,193);
+}
+.background-image img{
+    height: 17rem;
+    width: 110rem;
+
+}
+/* fourth-section end */
+
+/* fiveth-section start */
+.five-section{
+   background-color: black;
+    background-repeat: no-repeat;  
+    padding-top: 60px;
+    width: 100%;
+
+}
+.contents h4{
+    text-align: center;
+    font-family: open sans;
+}
+.contents h4{
+    color: rgb(244,203,8);
+    text-align: center;
+    font-family: open sans;
+    font-size: 2.5rem;
+    
+}
+.contents h2{
+    text-align: center;
+    color: rgb(255,255,255);
+    font-family: open sans;
+}
+.contents h2::after{
+    content: "";
+    display: block;
+    height: 2.7px;
+    width: 100px;
+    background-color: rgb(244, 203, 8);
+    margin: 20px 0 30px 0;
+    border-radius: 2px;
+    
+}
+.contents h2::after{
+    margin-left: 49rem;
+}
+
+.group-image img{
+    height: 286px;
+    width: 417px;
+    
+}
+.group-one{
+    display: flex;
+  
+}
+.group-two{
+    display: flex;  
+}
+
+/* fiveth-section end */
+
+/* sixth-section start */
+.main-div{
+    
+    background-color: rgb(255,255,255);
+   
+
+}
+.left-side{
+    background-image: url(../image/sky.jpg);
+    height: 500px;
+    width: 830px;
+}
+.right-side{
+    font-size: 20px;
+    margin-left: 58rem;
+    margin-top: -30rem;
+    color: rgb(245,203,8);
+    font-family: open sans;
+}
+.right-side h1{
+    color: rgb(50,50,50);
+    font-family: open sans;
+    font-size: 35px;
+}
+.right-side h1::after{
+    content: "";
+    display: block;
+    height: 2.7px;
+    width: 100px;
+    background-color: rgb(244, 203, 8);
+    margin: 20px 0 30px 0;
+    border-radius: 2px;
+    
+}
+.right-side p{
+    color: rgb(193,194,193);
+    font-size: 18px;
+}
+.right-side a{
+    background-color: rgb(244,203,8);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: open sans;
+    border-radius: 5px;
+}
+/* sixth-section end */
+
+/* seventh-section start */
+.background-three img{
+    height: 20rem;
+    width: 105rem;
+}
+.background-three h2{
+    position: relative;
+    margin-top: -15rem;
+    margin-left: 25rem;
+    color: rgb(244,203,8);
+    font-family: open sans;
+    font-size: 30px;
+    z-index: 1;
+}
+.background-three h2::after{
+    content: "";
+    display: block;
+    height: 2.7px;
+    width: 40px;
+    background-color: rgb(244, 203, 8);
+    margin: 20px 0 30px 0;
+    border-radius: 2px;
+    margin-left: 13px;
+    z-index: 1;
+}
+
+.second-word h2{
+    position: relative;
+    margin-top: -6rem;
+    margin-left: 42rem;
+    color: rgb(244,203,8);
+    font-family: open sans;
+    font-size: 30px;
+    z-index: 1;
+}
+.third-word h2{
+        position: relative;
+        margin-top: -6rem;
+        margin-left: 60rem;
+        color: rgb(244,203,8);
+        font-family: open sans;
+        font-size: 30px;
+        z-index: 1;
+}
+.four-word h2{
+    position: relative;
+    margin-top: -6rem;
+    margin-left: 78rem;
+    color: rgb(244,203,8);
+    font-family: open sans;
+    font-size: 30px;
+    z-index: 1;
+    
+    
+}
+.seven-section::after{
+    position: absolute;
+    content: "";
+    display: block;
+    height: 148px;
+    width: 104.2rem;
+    background-color: black;
+    opacity: 0.5;
+}
+/* seventh-section end */
+
+/* eighth-section start */
+
+.eight-section{
+    height: 30rem;
+    width: 100px;
+}
+.first-titles h4 pre{
+    margin-left: 45rem;
+    color: rgb(244,203,8);
+    font-family: "Wix Madefor Text", sans-serif;
+    font-size: 25px;
+
+}
+.first-titles h1{
+    margin-left: 40.4rem;
+    color: rgb(17,17,17);
+    
+    font-size: 32px;
+}
+.first-titles h1 pre{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.first-plan img{
+    margin-left: 21rem;
+    float: left;
+}
+.first-plan h2{
+    margin-left: 20.1rem;
+    font-family: open sans;
+    color: rgb(50,50,50);
+}
+.first-plan h4{
+    margin-left: 17.7rem;
+    font-family: open sans;
+    color: rgb(50,50,50);
+}
+.first-plan h4 pre{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(193,194,193);
+    font-size: 17px;
+}
+
+.first-design img{
+    margin-left: 41rem;
+    margin-bottom: 30rem;
+    float: left;
+    
+}
+
+.first-design h2{
+    margin-left: 41rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+.four-group{
+
+    position: absolute  ;
+    left: 280px;
+    display: flex;
+    
+    
+}
+
+.planning{
+    width: 270px;
+    height: 302;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    justify-content: center;
+    line-height: 1.6;
+}
+.planning img{
+    width: 70px;
+    height: 70px;
+    padding: 10px;
+    background-color: rgb(242,202,8);
+   
+    border-radius: 100px;
+}
+
+.planning h3{
+    font-weight: 400;
+    font-size: 1.875rem;
+    line-height: 1.2;
+   
+}
+
+.planning p{
+    width: 230px;
+    height: 76.8;
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-left: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+.stepdesign{
+    width: 270px;
+    height: 302;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    justify-content: center;
+    line-height: 1.6;
+}
+.stepdesign img{
+    width: 70px;
+    height: 70px;
+    padding: 10px;
+    background-color: rgb(242,202,8);
+   
+    border-radius: 100px;
+}
+.stepdesign h3{
+    font-weight: 400;
+    font-size: 1.875rem;
+    line-height: 1.2;
+    
+}
+
+.stepdesign p{
+    width: 230px;
+    height: 76.8;
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-left: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+.stepbuilding{
+    width: 270px;
+    height: 302;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    justify-content: center;
+    line-height: 1.6;
+}
+.stepbuilding img{
+    width: 70px;
+    height: 70px;
+    padding: 10px;
+    background-color: rgb(242,202,8);
+    
+    border-radius: 100px;
+}
+
+.stepbuilding h3{
+    top: 20px;
+    font-weight: 400;
+    font-size: 1.875rem;
+    line-height: 1.2;
+    padding: 20px;
+}
+.stepbuilding p{
+    width: 230px;
+    height: 76.8;
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-left: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+.finish{
+    width: 270px;
+    height: 302;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    justify-content: center;
+    line-height: 1.6;
+}
+.finish img{
+    width: 70px;
+    height: 70px;
+    padding: 10px;
+    background-color: rgb(242,202,8);
+   
+    border-radius: 100px;
+}
+.finish h3{
+    font-weight: 400;
+    font-size: 1.875rem;
+    line-height: 1.2;
+    
+}
+
+.finish p{
+    width: 230px;
+    height: 76.8;
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-left: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+/* eighth-section end */
+
+/* ninth-section start */
+.ninth{
+    position: relative;
+    height: 829PX;
+    background-color:rgb(44,44,44); 
+    font-family: 'Open Sans',sans-serif;
+    margin-left: -8rem;
+
+}
+.ninetitle{
+    position: absolute;
+    top: 100px;
+    width: 781px;
+    height: 194px;
+    text-align: center;
+    font-family:"Open Sans"sans-serif;
+    margin-left: 30%;
+    
+    
+}
+
+.ninetitle h3{
+    font-weight: 400;
+  font-size: 1.875rem;
+  line-height: 1.2;
+  color: rgb(242,202,8);
+  font-family: Roboto,sans-serif;
+}
+.ninetitle h1{
+    margin-top: 20px;
+    margin-left: 5px;
+    color: white;
+    font-family: Roboto,sans-serif;
+    font-weight: 400;
+    font-size: 2.25rem;
+    line-height: 1.1;
+}
+.nineline{
+    width: 80px;
+    height: 3px;
+    background-color:rgb(242,202,8);
+    margin-top: 30px;
+    margin-left: 350px;
+    
+}
+
+.info{
+    position: absolute;
+    top: 300px;
+    width: 781px;
+    height: 194px;
+    text-align: center;
+    font-family:"Open Sans"sans-serif;
+    margin-left: 400px;
+    
+    display: flex;
+    gap: 50px;
+}
+
+.architect{
+    width: 366px;
+    height: 457px;
+}
+.arinfo{
+   width: 337px;
+   height: 215px; 
+   border: 1px solid rgb(179,179,179);
+  
+}
+.arinfo p{
+    margin-top: 20px;
+    margin-left: 30px;
+    width: 268px;
+    height: 102px;
+    font-size: 1rem;
+    line-height: 1.6;
+    font-family: 'Open Sans',sans-serif;
+    color: white;
+}
+
+.architect img{
+    margin-top: -50px;
+}
+
+
+.architect h4{
+    font-size: 1.8rem;
+    color: white;
+    margin-top: 10px;
+    font-weight: 400;
+}
+
+.architect h5{
+    font-size: 1.5rem;
+    color: rgb(242,202,8);
+    margin-top: 10px;
+    font-weight: 400;
+}
+
+.builder{
+    width: 366px;
+    height: 457px;
+}
+
+.binfo{
+    width: 337px;
+   height: 215px; 
+   border: 1px solid rgb(179,179,179);
+}
+
+.binfo p{
+    margin-top: 20px;
+    margin-left: 30px;
+    width: 268px;
+    height: 102px;
+    font-size: 1rem;
+    line-height: 1.6;
+    font-family: 'Open Sans',sans-serif;
+    color: white;
+}
+
+.builder img{
+    margin-top: -50px;
+}
+
+.builder h4{
+    font-size: 1.8rem;
+    color: white;
+    margin-top: 10px;
+    font-weight: 400;
+}
+
+.builder h5{
+    font-size: 1.5rem;
+    color: rgb(242,202,8);
+    margin-top: 10px;
+    font-weight: 400;
+}
+
+.constructor{
+    width: 366px;
+    height: 457px;
+}
+
+.cinfo{
+    width: 337px;
+   height: 215px;
+   border: 1px solid rgb(179,179,179);
+}
+
+.cinfo p{
+    margin-top: 20px;
+    margin-left: 30px;
+    width: 268px;
+    height: 102px;
+    font-size: 1rem;
+    line-height: 1.6;
+    font-family: 'Open Sans',sans-serif;
+    color: white;
+}
+
+.constructor img{
+    margin-top: -50px;
+}
+
+.constructor h4{
+    font-size: 1.8rem;
+    color: white;
+    margin-top: 10px;
+    font-weight: 400;
+}
+
+.constructor h5{
+    font-size: 1.5rem;
+    color: rgb(242,202,8);
+    margin-top: 10px;
+    font-weight: 400;
+}
+
+/* ninth-section end */
+
+/* tenth-section start */
+.tenth{
+    position: relative;
+    width: 100%;
+    height: 327px;
+    background-color: rgb(23,23,23);
+}
+.brandlogos{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    
+    
+}
+
+.brandlogos img{
+    width: 120px;
+    height: 121px;
+    margin-top: 120px;
+}
+/* tenth-section end */
+
+/* eleventh-section-start */
+
+.blog{
+    margin-left: -5rem;
+    width: 100%;
+    height: 864px;
+    position: relative;
+}
+
+.blogtitle{
+    position: absolute;
+    top: 50px;
+    width: 781px;
+    height: 194px;
+    text-align: center;
+    font-family:"Open Sans"sans-serif;
+    margin-left: 30%;
+}
+
+.blogtitle h4{
+        margin-left: 12rem;
+        font-weight: 400;
+        font-size: 1.875rem;
+        line-height: 1.2;
+        font-family: Roboto,sans-serif;
+        color: rgb(242,202,8);
+
+}
+
+.blogtitle h3{
+    margin-left: 11rem;
+    font-weight: 800;
+    font-size: 1.86rem;
+    line-height: 1.2;
+    font-family: Roboto,sans-serif;
+    color: rgb(0, 0, 0); 
+    margin-top: 20px;   
+}
+
+.titleline{
+    width: 60px;
+    height: 3px;
+    background-color:rgb(242,202,8);
+    margin-top: 30px;
+    margin-left: 28rem;
+}
+
+.greatprojectmain{
+    position: absolute;
+    top: 220px;
+    left: 400px;
+    display: flex;
+    gap: 20px;
+    font-family: Roboto,sans-serif;
+}
+
+.gpone{
+    width: 366px;
+    height: 595px;
+}
+.gpone img{
+    width: 366px;
+    height: 288px;
+
+}
+.gpone h1{
+    font-weight: 400;
+    font-size: 1.875rem;
+    line-height: 1.2;
+    font-family: Roboto,sans-serif;
+    margin: 20px 20px 0;
+}
+.gpone h6{
+    font-weight: 400;
+    font-size: 1rem;
+    margin: 10px 20px 0;
+    color: rgb(189,189,189);
+}
+
+.gpone p{
+    font-size: 1rem;
+    line-height: 1.6  ;
+    width: 300px;
+    height: 76.8px;
+    margin: 20px 20px 0;
+    font-family: 'Open Sans',sans-serif;
+}
+
+.gpone a{
+    position: absolute;
+    top: 500px;
+    margin: 0px 20px 0;
+    font-weight: 700;
+    font-size: 0.875rem;
+    color: #000; 
+    font-family: 'Open Sans',sans-serif;
+    text-decoration: underline;
+}
+
+.gptwo{
+    width: 366px;
+    height: 595px;
+}
+
+.gptwo img{
+    width: 366px;
+    height: 288px;
+}
+
+.gptwo h1{
+    font-weight: 400;
+    font-size: 1.875rem;
+    line-height: 1.2;
+    font-family: Roboto,sans-serif;
+    margin: 20px 20px 0;
+}
+
+.gptwo h6{
+    font-weight: 400;
+    font-size: 1rem;
+    margin: 10px 20px 0;
+    color: rgb(189,189,189);
+}
+
+.gptwo p{
+    font-size: 1rem;
+    line-height: 1.6  ;
+    width: 300px;
+    height: 76.8px;
+    margin: 20px 20px 0;
+    font-family: 'Open Sans',sans-serif;
+}
+
+.gptwo a{
+    position: absolute;
+    top: 500px;
+    margin: 0px 20px 0;
+    font-weight: 700;
+    font-size: 0.875rem;
+    color: #000;  
+    font-family: 'Open Sans',sans-serif;
+    text-decoration: underline;
+}
+
+.gpthree{
+    width: 366px;
+    height: 595px;
+}
+
+.gpthree img{
+    width: 366px;
+    height: 288px;
+}
+
+.gpthree h1{
+    font-weight: 400;
+    font-size: 1.875rem;
+    line-height: 1.2;
+    font-family: Roboto,sans-serif;
+    margin: 20px 20px 0;
+}
+
+.gpthree h6{
+    font-weight: 400;
+    font-size: 1rem;
+    margin: 10px 20px 0;
+    color: rgb(189,189,189);
+}
+
+.gpthree p{
+    font-size: 1rem;
+    line-height: 1.6  ;
+    width: 300px;
+    height: 76.8px;
+    margin: 20px 20px 0;
+    font-family: 'Open Sans',sans-serif;
+}
+
+.gpthree a{
+    position: absolute;
+    top: 500px;
+    margin: 0px 20px 0;
+    font-weight: 700;
+    font-size: 0.875rem;
+    color: #000;
+    font-family: 'Open Sans',sans-serif;
+    text-decoration: underline;   
+}
+
+/* eleventh-section-end */
+
+/* twelve-section-start */
+
+.twelve{
+    position: relative;
+    
+}
+
+.twelvecontent{
+    height: 250px;
+    background-color: rgb(244,203,8);
+   
+}
+
+.twelvecontent h2{
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    font-weight: 400;
+    font-family: Roboto,sans-serif;
+    position: absolute;
+    top: 100px;
+    left: 400px; 
+}
+.twelvecontent p{
+    
+    color: rgb(255, 255, 255);
+    font-size: 1.1rem;
+    font-weight: 400;
+    font-family: Roboto,sans-serif;
+    position: absolute;
+    top: 180px;
+    left: 400px;
+}
+.twelvecontent button{
+    position: absolute;
+    top: 115px;
+    right: 370px;
+    border: none;
+}
+.twelvecontent button a{
+    height: 45px;
+    background-color: rgb(244,203,8);
+    border: 2px solid white;
+    border-radius: 4px;
+    font-size: 15px;
+    color: white;
+    font-weight: 600;
+    padding: 15px 40px 15px 40px; 
+}
+.twelvecontent button a:hover{
+    color: #000;
+    background-color:rgb(255, 255, 255);  
+}
+
+.twelvefotter{
+    margin-left: -10rem;
+   position: relative;
+    background-color:rgb(51,51,51) ;
+    height: 100px;    
+}
+
+.twelvefotter p{
+    position: absolute;
+    top: 45px;
+    left: 900px;
+    color:white ;
+    font-size: 13px;
+    text-align: center;  
+}
+
+.twelvefotter a{
+    color:rgb(244,203,8) ;
+    font-size: 13px;
+    text-decoration: underline;    
+}
+/* twelve-section-end */
