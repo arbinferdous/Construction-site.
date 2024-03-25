@@ -164,116 +164,82 @@ header {
 /* second-section end */
 
 /* third-section start */
-.first-image{
-    height: 20rem;
-    width: 34.7rem;
-    float: left;
-   
+
+.ferdous{
+    display: flex;
 }
-.first-image h2{
+.wahid{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-color: #0000007e;
+    padding: 116px 70px;
     position: relative;
-    margin-top: -10rem;
-    margin-left: 3rem;
-    color: rgb(255,255,255);
     font-family: open sans;
-    z-index: 1;
 }
-.first-image p{
-    position: relative;
-    color: rgb(234,255,255);
-    font-size: 18px;
-    font-family: open sans;
-    margin-left: 3rem;
-    z-index: 1;
+.tfbg{
+    background-image: url('../image/first.jpg');
 }
-.first-image h2::after{
+.tsbg{
+    background-image: url('../image/second.jpg');
+}
+.ttbg{
+    background-image: url('../image/third.jpg');
+}
+.tsbg{
+    
+    color: white;
     position: relative;
-    content: '';
-    display: block;
-    height: 2.5px;
-    width: 80px;
-    background-color: rgb(244, 203, 8);
-    position: relative;
-    margin: 30px 0;
-    z-index: 1;
 }
 
-.second-image{
-    height: 20rem;
-    width: 34.7rem;
-    float: left;
-}
-.second-image h2{
+
+
+.tfline{
+    color: white;
     position: relative;
-    margin-top: -10rem;
-    margin-left: 2.5rem;
-    color: rgb(255,255,255);
-    font-family: open sans;
-    z-index: 1;
-    
-}
-.second-image p{
-    position: relative;
-    color: rgb(234,255,255);
-    font-size: 18px;
-    font-family: open sans;
-    margin-left: 2.5rem;
-    z-index: 1;
-}
-.second-image h2::after{
-    position: relative;
-    content: '';
-    display: block;
-    height: 2.5px;
-    width: 80px;
-    background-color: rgb(244, 203, 8);
-    position: relative;
-    margin: 30px 0;
-    z-index: 1;
+    top: 3rem;
 }
 
-.third-image{
-    height: 20rem;
-    width: 34.7rem;
-    float: left;
-    
-}
-.third-image h2{
-    position: relative;
-    margin-top: -10rem;
-    margin-left: 2.5rem;
-    color: rgb(255,255,255);
-    font-family: open sans;
-    z-index: 1;
-}
-.third-image h2::after{
-    position: relative;
-    content: '';
-    display: block;
-    height: 2.5px;
-    width: 80px;
-    background-color: rgb(244, 203, 8);
-    position: relative;
-    margin: 30px 0;
-    z-index: 1;
-}
-.third-image p{
-    position: relative;
-    color: rgb(234,255,255);
-    font-size: 18px;
-    font-family: open sans;
-    margin-left: 2.5rem;
-    z-index: 1;
-}
-.three-section::after{
-    position: absolute;
+.tfline h3::after{
     content: "";
     display: block;
-    height: 297px;
-    width: 104.1rem;
-    background-color: black;
-    opacity: 0.6;
+    height: 2.7px;
+    width: 100px;
+    background-color: rgb(244, 203, 8);
+    margin: 20px 0 30px 0;
+    border-radius: 2px;
 }
+
+.tsline{
+    position: relative;
+    top: 3rem;
+}
+.tsline h3::after{
+    content: "";
+    display: block;
+    height: 2.7px;
+    width: 100px;
+    background-color: rgb(244, 203, 8);
+    margin: 20px 0 30px 0;
+    border-radius: 2px;
+}
+.ttline{
+    color: white;
+    position: relative;
+    top: 3rem;
+}
+.ttline h3::after{
+    content: "";
+    display: block;
+    height: 2.7px;
+    width: 100px;
+    background-color: rgb(244, 203, 8);
+    margin: 20px 0 30px 0;
+    border-radius: 2px;
+}
+
+
 /* third-section end */
 
 /* four-section start */
@@ -617,22 +583,19 @@ header {
     
     
 }
-
+.planning {
+	margin-top: -60px;
+}
 .planning{
-    width: 270px;
-    height: 302;
     text-align: center;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     justify-content: center;
     line-height: 1.6;
 }
-.planning img{
-    width: 70px;
-    height: 70px;
-    padding: 10px;
-    background-color: rgb(242,202,8);
-   
-    border-radius: 100px;
+.planning img {
+	
+	padding: 10px;
+	border-radius: 100px;
 }
 
 .planning h3{
@@ -659,19 +622,18 @@ header {
     justify-content: center;
     line-height: 1.6;
 }
-.stepdesign img{
-    width: 70px;
-    height: 70px;
-    padding: 10px;
-    background-color: rgb(242,202,8);
-   
-    border-radius: 100px;
+.stepdesign img {
+	padding: 10px;
+	border-radius: 100px;
 }
 .stepdesign h3{
     font-weight: 400;
     font-size: 1.875rem;
     line-height: 1.2;
     
+}
+.stepdesign {
+	margin-top: -60px;
 }
 
 .stepdesign p{
@@ -691,13 +653,12 @@ header {
     justify-content: center;
     line-height: 1.6;
 }
-.stepbuilding img{
-    width: 70px;
-    height: 70px;
-    padding: 10px;
-    background-color: rgb(242,202,8);
-    
-    border-radius: 100px;
+.stepbuilding img {
+	padding: 10px;
+	border-radius: 100px;
+}
+.stepbuilding {
+	margin-top: -75px;
 }
 
 .stepbuilding h3{
@@ -724,19 +685,18 @@ header {
     justify-content: center;
     line-height: 1.6;
 }
-.finish img{
-    width: 70px;
-    height: 70px;
-    padding: 10px;
-    background-color: rgb(242,202,8);
-   
-    border-radius: 100px;
+.finish img {
+	padding: 10px;
+	border-radius: 100px;
 }
 .finish h3{
     font-weight: 400;
     font-size: 1.875rem;
     line-height: 1.2;
     
+}
+.finish {
+	Margin-top: -71px;
 }
 
 .finish p{
@@ -752,13 +712,12 @@ header {
 /* eighth-section end */
 
 /* ninth-section start */
-.ninth{
+.ninth {
     position: relative;
     height: 829PX;
-    background-color:rgb(44,44,44); 
+    background-color: rgb(44,44,44);
     font-family: 'Open Sans',sans-serif;
-    margin-left: -8rem;
-
+    margin-left: -11rem;
 }
 .ninetitle{
     position: absolute;
@@ -956,21 +915,21 @@ header {
 
 /* eleventh-section-start */
 
-.blog{
-    margin-left: -5rem;
-    width: 100%;
-    height: 864px;
-    position: relative;
+.blog {
+	margin-left: -7rem;
+	width: 100%;
+	height: 864px;
+	position: relative;
 }
 
-.blogtitle{
+.blogtitle {
     position: absolute;
     top: 50px;
     width: 781px;
     height: 194px;
     text-align: center;
-    font-family:"Open Sans"sans-serif;
-    margin-left: 30%;
+    font-family: "Open Sans"sans-serif;
+    margin-left: 25%;
 }
 
 .blogtitle h4{
@@ -993,12 +952,12 @@ header {
     margin-top: 20px;   
 }
 
-.titleline{
+.titleline {
     width: 60px;
     height: 3px;
-    background-color:rgb(242,202,8);
+    background-color: rgb(242,202,8);
     margin-top: 30px;
-    margin-left: 28rem;
+    margin-left: 27rem;
 }
 
 .greatprojectmain{
@@ -1168,14 +1127,12 @@ header {
     left: 400px; 
 }
 .twelvecontent p{
-    
-    color: rgb(255, 255, 255);
-    font-size: 1.1rem;
-    font-weight: 400;
-    font-family: Roboto,sans-serif;
-    position: absolute;
-    top: 180px;
-    left: 400px;
+        position: absolute;
+        top: 45px;
+        left: 795px;
+        color: white;
+        font-size: 13px;
+        text-align: center;
 }
 .twelvecontent button{
     position: absolute;
