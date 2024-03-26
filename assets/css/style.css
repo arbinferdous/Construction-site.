@@ -266,7 +266,7 @@ header {
     
 }
 .caption-one h1::after{
-    margin-left: 49rem;
+    margin-left: 46rem;
 }
 
 .six-image{
@@ -383,7 +383,7 @@ header {
     
 }
 .blog {
-	margin-left: -10rem;
+	margin-left: 45rem;
 }
 .contents h2::after{
     margin-left: 49rem;
@@ -915,7 +915,7 @@ pre {
 /* eleventh-section-start */
 
 .blog {
-	margin-left: -7rem;
+
 	width: 100%;
 	height: 864px;
 	position: relative;
@@ -932,7 +932,7 @@ pre {
 }
 
 .blogtitle h4{
-        margin-left: 12rem;
+        margin-left: 23rem;
         font-weight: 400;
         font-size: 1.875rem;
         line-height: 1.2;
@@ -942,7 +942,7 @@ pre {
 }
 
 .blogtitle h3{
-    margin-left: 11rem;
+    margin-left: 23rem;
     font-weight: 800;
     font-size: 1.86rem;
     line-height: 1.2;
@@ -956,7 +956,7 @@ pre {
     height: 3px;
     background-color: rgb(242,202,8);
     margin-top: 30px;
-    margin-left: 27rem;
+    margin-left: 34rem;
 }
 
 .greatprojectmain{
