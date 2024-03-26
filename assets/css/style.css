@@ -248,6 +248,7 @@ header {
     color: rgb(244,203,8);
     font-family: open sans;
 }
+
 .caption-one h1{
     text-align: center;
     color: rgb(17,17,17);
@@ -380,6 +381,9 @@ header {
     margin: 20px 0 30px 0;
     border-radius: 2px;
     
+}
+.blog {
+	margin-left: -10rem;
 }
 .contents h2::after{
     margin-left: 49rem;
@@ -522,6 +526,9 @@ header {
     font-family: "Wix Madefor Text", sans-serif;
     font-size: 25px;
 
+}
+pre {
+	margin-top: 14px;
 }
 .first-titles h1{
     margin-left: 40.4rem;
@@ -1167,5 +1174,8 @@ header {
     color:rgb(244,203,8) ;
     font-size: 13px;
     text-decoration: underline;    
+}
+.twelvefotter {
+	margin-left: -15rem;
 }
 /* twelve-section-end */
