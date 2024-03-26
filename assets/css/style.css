@@ -507,15 +507,7 @@ header {
     
     
 }
-.seven-section::after{
-    position: absolute;
-    content: "";
-    display: block;
-    height: 148px;
-    width: 104.2rem;
-    background-color: black;
-    opacity: 0.5;
-}
+
 /* seventh-section end */
 
 /* eighth-section start */
